@@ -36,7 +36,13 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<script src="js/jquery.bxslider.js"></script>
 	<script>
-		$('.my-slider').bxSlider();
+		$('.my-slider').bxSlider({
+			randomStart: true,
+			controls: false,
+			auto:true,
+			pause: 8000,
+			autoHover: true
+		});
 	</script>
 	
 </body>
