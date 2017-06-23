@@ -1,0 +1,44 @@
+/* line 1, ../sass/_reset.sass */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; vertical-align: baseline; }
+
+/* line 13, ../sass/_reset.sass */
+body, html { height: 100%; }
+
+/* line 15, ../sass/_reset.sass */
+img, fieldset, a img { border: none; }
+
+/* line 17, ../sass/_reset.sass */
+input[type="text"], input[type="email"], input[type="tel"], textarea { -webkit-appearance: none; }
+
+/* line 22, ../sass/_reset.sass */
+input[type="submit"], button { cursor: pointer; }
+/* line 25, ../sass/_reset.sass */
+input[type="submit"]::-moz-focus-inner, button::-moz-focus-inner { padding: 0; border: 0; }
+
+/* line 28, ../sass/_reset.sass */
+textarea { overflow: auto; }
+
+/* line 30, ../sass/_reset.sass */
+input, button { margin: 0; padding: 0; border: 0; }
+
+/* line 34, ../sass/_reset.sass */
+div, input, textarea, select, button, h1, h2, h3, h4, h5, h6, a, span, a:focus { outline: none; }
+
+/* line 37, ../sass/_reset.sass */
+ul, ol { list-style-type: none; }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) { /* line 40, ../sass/_reset.sass */
+  * { -webkit-text-size-adjust: none; } }
+/* line 42, ../sass/_reset.sass */
+table { border-spacing: 0; border-collapse: collapse; width: 100%; }
+
+/* line 49, ../sass/_reset.sass */
+html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* line 51, ../sass/_reset.sass */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+/* line 53, ../sass/_reset.sass */
+*:before, *:after { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* line 1, ../sass/_common.sass */
+body { font-family: "Calibri", sans-serif; font-size: 15px; line-height: 1.4; color: #151515; }

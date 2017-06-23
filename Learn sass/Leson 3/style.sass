@@ -1,0 +1,48 @@
+.wrapper
+	width: 1000px
+	margin: 0 auto
+	padding: 100px 0
+
+
+$width: 100
+$gutter: 10
+$columns: 12
+
+.container
+	margin-left: auto
+	margin-right: auto
+	padding-left: $gutter + px
+	padding: $gutter + px
+	.row 
+		margin-left: -$gutter + px
+		margin-right: -$gutter + px
+		&>[class*='col-']
+			position: relative
+			min-height: 100px
+			float: left
+			padding-left: $gutter + px
+			padding-right: $gutter + px
+
+@for $i from 1 through $columns
+	.col-#{$i}
+		width: (($width / $columns) * $i) * 1%
+
+=arr($width, $height, $bg, $direction)
+	width: 0
+	height: 0
+	border-style: solid
+	@if $direction == t
+		border-width: 0 $width / 2 + px $height + px $width / 2 + px
+		border-color: transparent transparent $bg transparent
+	@if $direction == r
+		border-width: $height / 2 + px 0 $height / 2 + px $width + px
+		border-color: transparent transparent transparent $bg
+	@if $direction == b
+		border-width: $height + px $width / 2 + px 0 $width / 2 + px
+		border-color: $bg transparent transparent transparent
+	@if $direction == l
+		border-width: $height / 2 + px $width + px $height / 2 + px 0 
+		border-color: transparent $bg transparent transparent
+
+.transparent	
+	+arr(20, 40, red, b)

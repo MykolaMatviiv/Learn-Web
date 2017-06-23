@@ -1,0 +1,30 @@
+/* line 8, ../sass/screen.sass */
+a {
+  font-size: 7px;
+  color: blue;
+  border: 2px solid blue;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 16, ../sass/screen.sass */
+a {
+  color: blue;
+}
+/* line 18, ../sass/screen.sass */
+a:visited {
+  color: red;
+}
+/* line 20, ../sass/screen.sass */
+a:hover {
+  color: green;
+}
+/* line 22, ../sass/screen.sass */
+a:active {
+  color: yellow;
+}
+
+/* line 33, ../sass/screen.sass */
+a {
+  background: url(../img/img.png) no-repeat 0 0;
+}

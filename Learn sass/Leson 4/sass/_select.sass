@@ -1,0 +1,167 @@
+$s-height: 30px
+$s-fon-size: 14px
+$s-radius: 5px
+$s-radius-wrap: 0
+$s-bg: #fff
+$s-bg-wrap: #fff
+$s-bg-hover: #fff
+$s-bg-active: #fff
+$s-arrow-width: 40px
+
+
+/* ------ STYLE SELECT ----------------  */
+.cusel 
+	position: relative
+	z-index: 1
+	display: inline-block
+	vertical-align: middle
+	height: $s-height
+	font-size: $s-fon-size
+	border: 1px solid #c6dade
+	background: $s-bg
+	@if $s-radius > 0
+		+br($s-radius)
+	cursor: pointer
+	
+.cuselFrameRight 
+	position: absolute
+	z-index: 2
+	top: 0
+	right: 0
+	height: 100%
+	width: $s-arrow-width
+	background: url(../img/select-arrow.png) no-repeat center
+
+.cuselText 
+	position: absolute
+	top: 0
+	left: 0
+	z-index: 1
+	height: $s-height
+	padding: 0 5px 0 15px
+	font-size: $s-fon-size
+	line-height: $s-height -2px
+	color: #437182
+	cursor: pointer
+	overflow: hidden
+
+* html .cuselText 
+	height: $s-height
+
+.cusel span 
+	display: block
+	padding: 5px 15px
+	font-size: $s-fon-size
+	color: #333
+	zoom: 1
+	cursor: pointer
+	white-space: nowrap
+
+.cusel span:hover,
+.cusel .cuselOptHover  
+	background-color: $s-bg-hover
+
+.cusel .cuselActive,
+.cusel .cuselActive:hover 
+	background-color: $s-bg-active
+
+.cusel:hover,
+.cusel:focus,
+.cuselFocus 
+	background-color: $s-bg
+
+.cusel:hover .cuselFrameRight,
+.cusel:focus .cuselFrameRight,
+.cuselFocus .cuselFrameRight 
+	background: $s-bg url(../img/select-arrow.png) no-repeat center
+
+.cuselOpen 
+	z-index: 999
+
+.classDisCusel,
+.classDisCusel .cuselFrameRight 
+	background-image: url(../img/select-arrow.png) no-repeat center
+	cursor: default
+	color: #ccc
+
+.classDisCusel .cuselText 
+	cursor: default
+	color: #ccc
+
+.cusel .cusel-scroll-wrap 
+	position: absolute
+	left: 0
+	top: 100%
+	display: block
+	min-width: 100%
+	width: auto
+	height: auto !important
+	visibility: hidden
+	margin-top: 5px
+	padding: 5px 0
+	border: 1px solid rgba(0, 0, 0, 0.15)
+	background: $s-bg-wrap
+	overflow: hidden
+
+.cusel .jScrollPaneContainer 
+	position: relative
+	z-index: 5
+	overflow: hidden
+	background: $s-bg
+
+.cusel-scroll-pane 
+	top: 5px
+	right: 3px
+	left: 0
+	width: auto !important
+
+.cusel .jScrollPaneTrack 
+	position: absolute
+	top: 0
+	right: 2px
+	height: 100%
+	width: 5px !important
+	background: #EEE
+
+.cusel .jScrollPaneDrag 
+	position: absolute
+	left: 0px
+	width: 5px !important
+	height: 27px !important
+	background: #6E939E
+	cursor: pointer
+	overflow: hidden
+	border-radius: 3px
+
+.cusel .jScrollPaneDragTop 
+	position: absolute
+	top: 0
+	left: 0
+	width: 0 !important
+	overflow: hidden
+
+.cusel .jScrollPaneDragBottom 
+	position: absolute
+	bottom: 0
+	left: 0
+	width: 0 !important
+	overflow: hidden
+
+.cusel .jScrollArrowUp 
+	position: absolute
+	top: 0
+	right: 4px
+	width: 0 !important
+	height: 0
+	cursor: pointer
+	overflow: hidden	
+
+.cusel .jScrollArrowDown 
+	width: 0 !important
+	height: 0
+	position: absolute
+	top: auto
+	bottom: 0
+	right: 4px
+	cursor: pointer
+	overflow: hidden

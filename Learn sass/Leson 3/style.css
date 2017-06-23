@@ -1,0 +1,96 @@
+/* line 1, ../sass/screen.sass */
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+/* line 11, ../sass/screen.sass */
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding: 10px;
+}
+/* line 16, ../sass/screen.sass */
+.container .row {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+/* line 19, ../sass/screen.sass */
+.container .row > [class*='col-'] {
+  position: relative;
+  min-height: 100px;
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* line 27, ../sass/screen.sass */
+.col-1 {
+  width: 8.33333%;
+}
+
+/* line 27, ../sass/screen.sass */
+.col-2 {
+  width: 16.66667%;
+}
+
+/* line 27, ../sass/screen.sass */
+.col-3 {
+  width: 25%;
+}
+
+/* line 27, ../sass/screen.sass */
+.col-4 {
+  width: 33.33333%;
+}
+
+/* line 27, ../sass/screen.sass */
+.col-5 {
+  width: 41.66667%;
+}
+
+/* line 27, ../sass/screen.sass */
+.col-6 {
+  width: 50%;
+}
+
+/* line 27, ../sass/screen.sass */
+.col-7 {
+  width: 58.33333%;
+}
+
+/* line 27, ../sass/screen.sass */
+.col-8 {
+  width: 66.66667%;
+}
+
+/* line 27, ../sass/screen.sass */
+.col-9 {
+  width: 75%;
+}
+
+/* line 27, ../sass/screen.sass */
+.col-10 {
+  width: 83.33333%;
+}
+
+/* line 27, ../sass/screen.sass */
+.col-11 {
+  width: 91.66667%;
+}
+
+/* line 27, ../sass/screen.sass */
+.col-12 {
+  width: 100%;
+}
+
+/* line 47, ../sass/screen.sass */
+.transparent {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 40px 10px 0 10px;
+  border-color: red transparent transparent transparent;
+}
