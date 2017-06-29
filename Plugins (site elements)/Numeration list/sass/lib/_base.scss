@@ -1,0 +1,10 @@
+// this one just agregates all the libs
+@import "compass/css3";
+@import "mixins";
+@import "keyframes";
+@import "media";
+@import "sprites";
+@import "images";
+
+// gradients for ie, turn it off to disable svg base64
+//$experimental-support-for-svg: true;

@@ -1,0 +1,30 @@
+
+.page
+	max-width: 1200px
+	margin: 0 auto
+
+.ic
+	position: relative
+	display: inline-block
+	vertical-align: middle
+
+@each $i in user, boock, ok
+	.ic--#{$i}
+		+s(ic--#{$i})
+
+.ol-list
+	margin: 50px auto
+	+clr
+	+counter(li)
+	li
+		float: left
+		width: 25%
+		text-align: center
+	&_ic
+		display: inline-block
+		height: 170px
+		width: 170px
+		margin-bottom: 25px
+		line-height: 170px
+		background-color: #f0f3f6
+		+br(50%)
