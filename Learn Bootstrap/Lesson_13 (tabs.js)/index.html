@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bootstrap</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+</head>
+<body>
+	<br>
+<!-- 	<div class="container">
+		<ul class="nav nav-tabs" role="tablist">
+			<li><a href="#home" role="tab" data-toggle="tab">Home</a></li>
+			<li><a href="#profile" role="tab" data-toggle="tab">Profile</a></li>
+			<li class="active"><a href="#message" role="tab" data-toggle="tab">Message</a></li>
+			<li><a href="#settings" role="tab" data-toggle="tab">Settings</a></li>
+		</ul>
+		<div class="tab-content">
+			<div role="tabpanel" class="tab-pane" id="home">Home</div>
+			<div role="tabpanel" class="tab-pane" id="profile">Profile</div>
+			<div role="tabpanel" class="tab-pane active" id="message">Message</div>
+			<div role="tabpanel" class="tab-pane" id="settings">Settings</div>
+		</div>
+	</div> -->
+
+<!-- tabs = pills -->
+	<br>
+	<div class="container">
+		<ul class="nav nav-pills" role="tablist">
+			<li><a href="#home" role="tab" data-toggle="pill">Home</a></li>
+			<li><a href="#profile" role="tab" data-toggle="pill">Profile</a></li>
+			<li class="active"><a href="#message" role="tab" data-toggle="pill">Message</a></li>
+			<li><a href="#settings" role="tab" data-toggle="pill">Settings</a></li>
+		</ul>
+		<div class="tab-content">
+			<div role="tabpanel" class="tab-pane fade" id="home">Home</div>
+			<div role="tabpanel" class="tab-pane fade" id="profile">Profile</div>
+			<div role="tabpanel" class="tab-pane active fade in" id="message">Message</div>
+			<div role="tabpanel" class="tab-pane fade" id="settings">Settings</div>
+		</div>
+	</div>
+	
+
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<!-- 	<script>
+		$('#settings').tab('show');
+	</script> -->
+
+
+
+<!-- shown, show, hide, hidden -->
+<!-- 	<script>
+		$('a[data-toggle="pill"]').on('shown.bs.tab', function (e) {
+			console.log(e.target);//active
+			console.log(e.relatedTarget);//before active
+		})
+	</script> -->
+	
+<!-- 	<script>
+		$('a[data-toggle="pill"]').on('show.bs.tab', function (e) {
+			console.log(e.target);//active
+			console.log(e.relatedTarget);//before active
+		})
+	</script> -->
+</body>
+</html>
