@@ -1,0 +1,15 @@
+/* header */
+
+/* font-family: "BEYNO"; */
+@font-face {
+	font-family: "BEYNO";
+	src: url(../fonts/BEYNO/BEYNO.ttf) format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "Lato-Heavy";
+	src: url(../fonts/Lato-Heavy/Lato-Heavy.ttf) format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}

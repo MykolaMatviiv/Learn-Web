@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>UPQODE</title>
+
+	<!-- meta -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- stylesheets -->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+	<!-- js -->
+	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+	
+	<!-- google fonts -->
+
+	<!-- slider - Fotorama -->
+	<link rel="stylesheet" href="slider/fotorama.css">
+	<script src="slider/fotorama.js"></script>
+
+	
+</head>
+<body>
+
+<!-- header -->
+	<section id="header">
+		<div id="header" class="navbar navbar-default navbar-fixed-top header">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a data-scroll class="navbar-brand" href="#header">
+						<p class="logotext_1">UP</p>
+						<p class="logotext_2">QODE</p>
+					</a>
+				</div>
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#baner">Home</a></li>
+						<li><a href="#">Products</a></li>
+						<li class="dropdown dp-style">
+						  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Test Page</a>
+						  <ul class="dropdown-menu">
+						    <li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Name Surname</a></li>
+						    <li><a  href="#"><span class="glyphicon glyphicon-chevron-right"></span> Nelson Noa Chris</a></li>
+							<li class="dropdown dp-style">
+							  <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-chevron-right"></span> Name Surname</a>
+							  <ul class="dropdown-menu">
+							    <li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Name Surname</a></li>
+							    <li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Nelson Noa Chris</a></li>
+							    <li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Name Surname</a></li>
+							    <li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Nelson Noa</a></li>
+							    <li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Nelson Noa Chris</a></li>
+							  </ul>
+							</li>
+							<li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Nelson Noa</a></li>
+						  </ul>
+						</li>
+						<li><a href="#">About</a></li>
+						<li><a href="#contact">Contact</a></li>
+						<li>
+							<form class="navbar-form navbar-left" role="search">
+								<input type="text" class="form-control">
+								<div class="glyphicon glyphicon-search"></div>
+							</form>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>	
+	</section>
+	<!-- baner -->
+	<section id="baner">
+		<div id="baner" class="baner">
+			<div class="container">
+				<div class="row centered">
+					<div class="fotorama" data-width="100%" data-max-width="100%" data-autoplay="4000">
+					  <img src="img/for_slider_1.jpg">
+					  <img src="img/for_slider_2.jpg">
+					  <img src="img/for_slider_3.jpg">
+					</div>
+				</div>
+			</div>
+		</div>		
+	</section>
+
+
+<!-- contact -->
+	<section id="contact">
+		<!-- Contact Area -->
+		<div>
+			<div class="container">
+				<div class="row centered">
+					<div class="col-lg-8 col-lg-offset-2">
+						<h4>get in <span>touch</span></h4>
+						<p>Quisque fermentum, nisl mattis volutpat rhoncus, tellus est congue nibh, ut eusmod quam nisi quis felis.</p>
+						<p>Nullam at scelerisque tellus mattis vilutpat rhoncus</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="googl_map_fon">
+		    <div class="container">
+		    	<div class="row centered contact_form">
+			    	<div class="col-lg-8 centered">
+			    		<div class="col-lg-2"></div>
+			    		<div class="form_send col-lg-8 centered">
+							<div class="form-group">
+								<!-- <div class="col-lg-offset-1"> -->
+									<!-- <div class="col-lg-1"></div> -->
+									<div class="col-lg-6 form-group">
+										<input type="text" class="form-control form-group" id="fullName" placeholder="Full Name">
+									</div>
+									<div class="col-lg-6 form-group">
+										<input type="email" class="form-control" id="emailAddress" placeholder="E-mail Address">
+									</div>
+									<!-- <div class="col-lg-1"></div> -->
+								<!-- </div> -->
+								<div class="form-group col-lg-offset-1">
+									<!-- <div class="col-lg-1"></div> -->
+									<!-- <div class="col-lg-12 form-group centered"> -->
+									<textarea placeholder="Message" class="form-control form-group" id="message" name="message"></textarea>
+										<!-- <input type="text" class="form-control form-group" id="message" placeholder="Message"> -->
+									<!-- </div> -->
+								</div>
+								<div class="form-group">
+									<div class="col-lg-6">
+										<div class="nav navbar-nav navbar-left">
+											<div class="checkbox">
+												<label>
+													<input id="input_checkbox" type="checkbox"> I like your company
+												</label>
+											</div>
+										</div>	
+									</div>
+									<div class="col-lg-6">
+										<div class="nav navbar-nav navbar-right">
+											<div class="col-lg-6"></div>
+											<button id="form_send_btn" type="submit" class="btn btn-primary">Send</button>
+										</div>
+									</div>
+								</div>
+							</div>	
+						</div>
+			    	</div>
+			    	<div class="col-lg-4 contact_discription">
+			    		<p>69/A, Some Street<br>Name Your City, code 01234<br>Country Name</p>
+			    		<p>+8801234567898<br>+869876487495</p>
+			    		<p>company@mail.com<br>sales@mail.com</p>
+			    	</div>
+			    </div>
+		    </div>
+		</div>
+		<!-- Footer Area -->
+	    <footer>
+	        <div class="container">
+	            <div class="row">
+	                <div class="col-sm-6">
+	                    <p class="copyright">Copyright © Company. All Rights Reserved  2016</p>
+	                </div>
+	                <div class="col-sm-6 brand_icons ">
+	                	<div class="nav navbar-right">
+							<a href="#"><i class="fa fa-facebook"></i></a>
+							<a href="#"><i class="fa fa-google-plus"></i></a>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+							<a href="#"><i class="fa fa-dribbble"></i></a>
+						</div>
+	                </div>
+	            </div>
+	        </div>
+	    </footer>
+	</section>
+	
+
+
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
