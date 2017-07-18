@@ -26,6 +26,8 @@
 .navbar-inverse .navbar-brand {
 	color: #000;
 	font-size: 30pt;
+	z-index: 99;
+	position: absolute;
 }
 .navbar-inverse .navbar-nav>li>a {
 	color: #000;
@@ -56,7 +58,6 @@
 .header>div>div>button>p {
 	float: right;
 	margin-left: 10px;
-	//padding-top: 8px;
 	font-size: 22pt;
 }
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
@@ -65,8 +66,19 @@
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
 	background-color: #fcdb00;
 }
+@media (max-width: 342px){
+	.navbar-header{
+		margin-bottom: 21px;
+		background-color: #fcdb00; 
+	}	
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+	z-index: 9;
+	position: relative;
+}
 
 /* slider */
+
 #slider > div.container {
 	margin: 0;
 	padding: 0;
@@ -122,6 +134,20 @@
 		margin-top: 140px;
 	}	
 }
+@media (max-width: 527px){
+	.slider_discription  {
+		width: 100%;
+		text-align: center;
+	}	
+	.bx-wrapper img {
+		width: 100%;
+		text-align: center;
+		margin-top: 0;
+	}
+	.my-slider>li>div  {
+		width: 100%;
+	}
+}
 .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
 	bottom: 40px;
 }
@@ -158,4 +184,146 @@
 }
 .bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus {
 	background: rgba(255, 255, 255, 1);
+}
+
+/* features */ 
+.features {
+	margin-bottom: 145px;
+}
+.features h4 {
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 700;
+	font-size: 32px;
+}
+.features p {
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+}
+.features_description>div {
+	margin-top: 55px;
+}
+.features_description i {
+	font-size: 55px;
+	margin-top: 10px;
+}
+.features_description h5 {
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 400;
+	font-size: 22px;
+}
+.features_description p {
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #ababab;
+}
+@media (max-width: 991px){
+	.col-xs-4 {
+		width: 100%;
+	}	
+}
+
+/* subcrible */
+.subcrible {
+	width: 100%;
+	background-color: #010101;
+	padding-top: 70px;
+	padding-bottom: 40px;
+}
+.subcrible h4 {
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 700;
+	font-size: 32px;
+	color: #fcdb00;
+}
+.subcrible p {
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	color: #898989;
+	margin-bottom: 35px;
+}
+.subcrible_form>div>div>button {
+	padding: 15px 35px 15px 35px;
+	text-transform: uppercase;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	background-color: #fcdb00;
+	color: #010101;
+	background-image: none;
+	border: none;
+}
+.subcrible_form>div>div>button:hover, .subcrible_form>div>div>button:hover:active, .subcrible_form>div>div>button:active, .subcrible_form>div>div>button:focus:active, .subcrible_form>div>div>button:focus, .subcrible_form>div>div>button:visited {
+	background-image: none;
+	border: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	background-color: #fcdb00;
+	color: #010101;
+	outline: none;
+}
+.subcrible_form>div>div>input {
+	padding-right: 15px;
+	padding-left: 15px;
+	height: 52.85px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+}
+.social_connect {
+	width: 100%;
+	background-color: #010101;
+	padding-top: 20px;
+	padding-bottom: 60px;
+	color: #fcdb00;
+	font-size: 42px;
+}
+@media (max-width: 768px){
+	.subcrible_form {
+		width: 100%;
+		text-align: center;
+		box-sizing: none;
+	}
+}
+@media (max-width: 425px){
+	.subcrible_form>.col-xs-2 {
+		width: 0;
+	}
+}
+.footer {
+	width: 100%;
+	background-color: #010101;
+	padding-top: 40px;
+	padding-bottom: 100px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #fff;
+}
+.footer>div>div>p {
+	margin-bottom: 7px;
+}
+.footer>div>div>li {
+	list-style-type: none;
+}
+.footer>div>div>li>a {
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #fff;
+	text-decoration: none;
+}
+@media (max-width: 768px){
+	.footer>div>div {
+		width: 100%;
+	}
+	.footer>div>div {
+		margin-top: 20px;
+		text-align: center;
+	}	
+	.footer {
+		text-align: center;
+	}
 }
