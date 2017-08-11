@@ -404,6 +404,7 @@ $colors: $blue, $red, $accent
 	&-king
 		p 
 			margin: 30px 0
+			font-size: 18px
 
 .section-overley
 	&::before 	
@@ -425,11 +426,27 @@ $colors: $blue, $red, $accent
 			padding: 0 30px
 			width: 100%
 	&__thumb 
-		border: 5px #fff solid
+		border: 4px #fff solid
 		transition: border-color .5s ease
 		&-border 
 			border-color: #3d3c3c
-	
+		
+	&__nav:after, &__stage:after, &__nav:before, &__stage:before 
+		display: none
 
+	&__arr-
+		&-next, &-prev
+			&::before 
+				font-family: fontawesome
+				font-size: 32px
+		&-next
+			&::before
+				content: '\f105'
+		&-prev
+			&::before
+				content: '\f104'
+	&__active 
+		.fotorama__thumb 
+			border-color: #3d3c3c
 
 @import "media" // Всегда в конце
