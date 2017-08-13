@@ -60,6 +60,8 @@ $(function() {
 		ths.html(ths.html().replace(/^(\S+)/, '<span>$1</span>'));
 	});
 
+	$('select').selectize();
+
 //Resize Window
 	function onResize() {
 		$('.carousel-services-content').equalHeights();
