@@ -62,6 +62,13 @@ $(function() {
 
 	$('select').selectize();
 
+	$('.reviews').owlCarousel({
+		loop: true,
+		items: 1,
+		smartSpeed: 700,
+		nav: false
+	});
+
 	//E-mail Ajax Send
 	$("form.callback").submit(function() { //Change
 		var th = $(this);
