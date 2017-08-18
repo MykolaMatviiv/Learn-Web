@@ -740,10 +740,18 @@ select
 		font-family: firasans, sans-serif
 		padding-top: 10px
 		display: block
+		white-space: nowrap
 		.fa 
 			top: 22px
 			font-size: 22px
 			left: 3px
+
+.map 
+	max-height: 200px
+	opacity: .7
+	transition: opacity .5s ease
+	&:hover 
+		opacity: 1
 
 
 @import "media" // Всегда в конце
