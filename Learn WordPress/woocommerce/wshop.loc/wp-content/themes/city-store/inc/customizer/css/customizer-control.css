@@ -1,0 +1,137 @@
+.customize-partial-edit-shortcut button{
+    height: auto !important;
+}
+
+#customize-control-support_links .city-store-support {
+    font-size: 13px;
+    display: block;
+    width: 90%;
+    margin: 5px auto 14px auto;
+    transition: all .5s ease;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+    border: 0;
+    border-radius: 50px;
+    background-color: #3ebef1;
+    box-shadow: none;
+    line-height: 23px;
+    padding: 9px 10px;
+}
+.city-store-support span {
+    position: relative;
+    line-height: inherit;
+    margin-right: 9px;
+}
+.support-image img {
+    height: 25px;
+    margin-right: 5px;
+    margin-left: 6px;
+}
+.support-image.city-store-support {
+    display: flex !important;
+}
+
+#customize-control-support_links .city-store-support:hover {
+    box-shadow: 0 -3px 0 0 rgba(0,0,0,.3) inset;
+}
+
+#customize-control-support_links .city-store-lite-support {
+    font-size: 13px;
+    display: block;
+    width: 90%;
+    margin: 5px auto 14px auto;
+    transition: all .5s ease;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+    border: 0;
+    border-radius: 50px;
+    background-color: #3ebef1;
+    box-shadow: none;
+    line-height: 23px;
+    padding: 9px 10px;
+    text-decoration: none;
+}
+.city-store-lite-support span {
+    position: relative;
+    line-height: inherit;
+    margin-right: 9px;
+}
+
+/*for discount button*/
+.city-store-lite-support {
+    font-size: 13px;
+    display: block;
+    width: 90%;
+    margin: 5px auto 14px auto;
+    transition: all .5s ease;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+    border: 0;
+    border-radius: 50px;
+    background-color: #3ebef1;
+    box-shadow: none;
+    line-height: 23px;
+    padding: 9px 10px;
+    text-decoration: none;
+}
+.city-store-lite-support span {
+    position: relative;
+    line-height: inherit;
+    margin-right: 9px;
+}
+
+.upgrade-to-city-store-pro {
+    display: block !important;
+}
+
+.support-image img {
+    height: 25px;
+    margin-right: 5px;
+    margin-left: 6px;
+}
+.support-image.city-store-lite-support {
+    display: flex !important;
+}
+
+#customize-control-support_links .city-store-lite-support:hover {
+    box-shadow: 0 -3px 0 0 rgba(0,0,0,.3) inset;
+}
+
+li#accordion-section-city-store_lite_to_pro_discount h3.accordion-section-title{
+    padding: 0;
+    border: none;
+}
+li#accordion-section-city-store_lite_to_pro_discount {
+    padding: 10px 19px;
+    text-align: center;
+}
+li#accordion-section-city-store_lite_to_pro_discount h2{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+li#accordion-section-city-store_lite_to_pro_discount .accordion-section-title{
+    background: none !important;
+}
+
+.city-store-lite-support:hover {
+    box-shadow: 0 -3px 0 0 rgba(0,0,0,.3) inset;
+    color: #fff;
+}
+
+li#accordion-section-city-store_lite_to_pro_donate {
+    text-align: center;
+}
+li#accordion-section-city-store_lite_to_pro_donate h3.accordion-section-title{
+    padding-top: 20px;
+}
+li#accordion-section-city-store_lite_to_pro_donate a.city-store-lite-support {
+    width: 55%;
+    margin-top: 15px;
+}
