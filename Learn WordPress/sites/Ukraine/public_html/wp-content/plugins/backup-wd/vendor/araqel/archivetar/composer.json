@@ -1,0 +1,12 @@
+{
+    "name": "araqel/archivetar",
+    "description": "Class for creation of .tar.zip Archives",
+    "keywords" : ["archive", "class", "api", "tar", "php", ".tar.zip"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Araqel Araqelyan",
+            "email": "AraqelAraqelyan@gmail.com"
+        }
+    ]
+}

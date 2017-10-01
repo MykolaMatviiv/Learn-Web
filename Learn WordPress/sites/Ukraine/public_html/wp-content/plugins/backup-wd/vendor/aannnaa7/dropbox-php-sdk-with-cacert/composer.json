@@ -1,0 +1,18 @@
+{
+    "name": "aannnaa7/dropbox-php-sdk-with-cacert",
+    "description": "Dropbox PHP API V2 SDK for private use only",
+    "keywords" : ["dropbox", "sdk", "api", "client", "php", "unofficial"],
+    "license": "MIT",
+    "require": {
+        "guzzlehttp/guzzle": "~6.0",
+        "tightenco/collect": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kunnu\\Dropbox\\": "src/Dropbox"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    }
+}
