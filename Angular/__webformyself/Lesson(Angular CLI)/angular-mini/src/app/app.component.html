@@ -1,11 +1,10 @@
 <div class="container">
 
   <div class="row">
-    <app-user></app-user>
-    <app-user></app-user>
-    <app-user></app-user>
-    <app-user></app-user>
-    <app-user></app-user>
+    <app-user
+      *ngFor="let u of users"
+      [user]="u"
+    ></app-user>
   </div>
 
 </div>
